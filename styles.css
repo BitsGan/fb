@@ -1,0 +1,178 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and font styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4267b2;
+    padding: 10px 20px;
+    color: white;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .search-bar input {
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    width: 250px;
+}
+
+.header .header-icons span {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #ffffff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+
+.sidebar .profile-card {
+    text-align: center;
+}
+
+.sidebar .profile-card img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.sidebar .profile-card h2 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.sidebar .profile-card button {
+    background-color: #4267b2;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.sidebar .menu ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.sidebar .menu ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar .menu ul li:hover {
+    background-color: #f1f2f6;
+}
+
+/* Main Feed Section */
+.main-content {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+.feed .post-box {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.feed .post-box textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.feed .post-box button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4267b2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Posts Section */
+.posts .post {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.posts .post .post-header {
+    display: flex;
+    align-items: center;
+}
+
+.posts .post .post-header img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.posts .post .post-header div {
+    margin-left: 10px;
+}
+
+.posts .post .post-header h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.posts .post .post-footer {
+    margin-top: 10px;
+}
+
+.posts .post .post-footer button {
+    margin-right: 10px;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.posts .post .post-footer button:hover {
+    background-color: #f0f2f5;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: #4267b2;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Change style when post is liked */
+.like-btn.liked {
+    color: #4267b2;
+}
